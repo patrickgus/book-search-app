@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import NavBars from "./NavBars/NavBars";
+
 import "./Header.css";
 
 class Header extends Component {
@@ -7,7 +7,7 @@ class Header extends Component {
     return (
       <div className="header">
         <h1>Google Book Search</h1>
-        <NavBars />
+        
       </div>
     );
   }
