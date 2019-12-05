@@ -9,7 +9,7 @@ export default function Book(props) {
         <img src={props.thumbnail} alt="book cover"/>
         <div className="book-info">
           <p>Author: {props.author}</p>
-          <p>Price: {this.price}</p>
+          <p>Price: ${props.price}</p>
           <p className="description">{props.description}</p>
         </div>
       </div>
