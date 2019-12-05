@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-
+import SearchBar from "./SearchBar/SearchBar";
+import Filters from "./Filters/Filters";
 import "./Header.css";
 
 class Header extends Component {
@@ -7,7 +8,8 @@ class Header extends Component {
     return (
       <div className="header">
         <h1>Google Book Search</h1>
-        
+        <SearchBar />
+        <Filters />
       </div>
     );
   }
