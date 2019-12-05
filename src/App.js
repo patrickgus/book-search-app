@@ -15,7 +15,7 @@ class App extends Component {
     return (
       <main className="App">
         <Header />
-        <BookList />
+        <BookList books={this.state.books}/>
       </main>
     );
   }
