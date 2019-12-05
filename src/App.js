@@ -4,8 +4,15 @@ import BookList from "./BookList/BookList";
 import "./App.css";
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      books: []
+    };
+  }
+
   render() {
-    return (  
+    return (
       <main className="App">
         <Header />
         <BookList />
