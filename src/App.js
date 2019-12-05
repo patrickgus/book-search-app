@@ -3,6 +3,8 @@ import Header from "./Header/Header";
 import BookList from "./BookList/BookList";
 import "./App.css";
 
+const apiKey = 'AIzaSyD5Dga4orF8B--xLnrdgVqZ92um-nT-AOc';
+
 class App extends Component {
   constructor(props) {
     super(props);
