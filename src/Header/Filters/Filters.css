@@ -1,0 +1,10 @@
+.filters {
+  background-color: darkgray;
+  padding: 8px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#print-type {
+  margin-right: 10px;
+}
